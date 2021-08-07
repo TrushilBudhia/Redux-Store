@@ -11,10 +11,9 @@ import {
   TOGGLE_CART,
 } from './actions';
 
-// TODO: To get a better understand of how a reducer works - add comments to the various actions in the reducer
+// Reducer function
 export const reducer = (state, action) => {
   switch (action.type) {
-    // TODO: Add a comment describing the functionality of the UPDATE_PRODUCTS case
     // The state spread and updated products are returned
     // The products property has a value of the action.products spread
     case UPDATE_PRODUCTS:
@@ -35,7 +34,6 @@ export const reducer = (state, action) => {
         ...state,
         cart: [...state.cart, ...action.products],
       };
-    // TODO: Add a comment describing the functionality of the UPDATE_CART_QUANTITY case
     // The cart property has a value of the new cart in the statement mapped with the products to be purchased and the quanitity
     case UPDATE_CART_QUANTITY:
       return {
@@ -49,7 +47,6 @@ export const reducer = (state, action) => {
         }),
       };
 
-    // TODO: Add a comment describing the functionality of the REMOVE_FROM_CART case
     // The newState is returned as the value of the cart property
     // newState has a value of the cart filtered without the products that don't have ids matching the items in the cart
     // The cartOpen value is set as true if the newState length is greater than 0 i.e. if there are items in the cart
