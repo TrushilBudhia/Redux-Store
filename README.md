@@ -15,7 +15,6 @@
 [![Langugage: HTML5](https://img.shields.io/badge/Language-HTML5-yellow.svg)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 [![Langugage: CSS3](https://img.shields.io/badge/Language-CSS3-informational.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Module: JSON Web Token](https://img.shields.io/badge/Module-Jsonwebtoken-critical.svg)](https://www.npmjs.com/package/jsonwebtoken)
-[![CSS Framework: React-Bootstrap](https://img.shields.io/badge/CSS-ReactBootstrap-9cf.svg)](https://react-bootstrap.github.io/)
 
 ## Description
 
@@ -69,7 +68,6 @@ The following images shows the functionality of the application:
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
 - [Heroku](https://www.heroku.com/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
 - [Stripe.js](https://stripe.com/docs/js/including)
 - [Adobe Photoshop](https://www.adobe.com/au/products/photoshop.html)
