@@ -44,6 +44,11 @@ If you wish to install the repository on your local machine, please follow the b
     ```js
     npm install
     ```
+3. To seed the application with data, run:
+    ```js
+    npm run seed
+    ```
+
 
 ## Usage
 An account can be creted with the signup button and once logged in, the user can view the products on display and add or remove them from the shopping cart.
